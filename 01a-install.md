@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I already had Python 2 installed and am more familiar with that, so I also installed Python 3 (and pinned that version of Anaconda to my dock) since that is what we will be using in the pre-work.
 
 ### Q2. Which Python Version Installed   
 
@@ -59,8 +59,4 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
-
+>> Python 3.6.4 :: Anaconda, Inc.
