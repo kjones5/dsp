@@ -47,12 +47,12 @@ What do the following commands do:
 > > Command | What It Does
 > > ------- | ------------
 > > `ls` | List contents
-> > `ls -a` | List all contents, including hidden files and directories
-> > `ls -l` | List all contents in a long format
-> > `ls -lh`  | XXXXX
-> > `ls -lah` | XXXXX
-> > `ls -t` | List in order by the time they were last modified
-> > `ls -Glp` | XXXXX
+> > `ls -a` | List all contents, including hidden files and directories starting with '.'
+> > `ls -l` | List contents in long format
+> > `ls -lh`  | List contents in long format (`-l`) with readable file size (`-h`), e.g., K or B
+> > `ls -lah` | List all (`-a`) contents in long format (`l`) with readable file size (`-h`)
+> > `ls -t`| List in order by the time they were last modified
+> > `ls -Glp` | List contents in long format (`l`) with directories marked with / (`-p`) and in color (`-G`)
 
 ---
 
@@ -60,7 +60,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | What It Does
+> > ------- | ------------
+> > `ls -r` | Displays files in reverse order
+> > `ls -1` | Displays each entry on a line
+> > `ls -m` | Displays the names as a comma-separated list
+> > `ls -g` | Displays the long format listing, but exclude the owner name
+> > `ls -x` | Displays files as rows across the screen
 
 ---
 
