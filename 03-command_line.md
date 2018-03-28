@@ -50,9 +50,9 @@ What do the following commands do:
 > > `ls -a` | List all contents, including hidden files and directories starting with '.'
 > > `ls -l` | List contents in long format
 > > `ls -lh`  | List contents in long format (`-l`) with readable file size (`-h`), e.g., K or B
-> > `ls -lah` | List all (`-a`) contents in long format (`l`) with readable file size (`-h`)
+> > `ls -lah` | List all (`-a`) contents in long format (`-l`) with readable file size (`-h`)
 > > `ls -t`| List in order by the time they were last modified
-> > `ls -Glp` | List contents in long format (`l`) with directories marked with / (`-p`) and in color (`-G`)
+> > `ls -Glp` | List contents in long format (`-l`) with directories marked with / (`-p`) and in color (`-G`)
 
 ---
 
