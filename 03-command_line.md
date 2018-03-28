@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * **show current working directory path:** `pwd` to print working directory
-> > * **creating a directory:** `mkdir moose` to make directory called "moose"
-> > * **deleting a directory:** XXXXX
-> > * **creating a file using `touch` command:** `touch filename.txt` Note: Can add filepath before it to create it someplace other than the working directory
-> > * **deleting a file:** 
-> > * **renaming a file:** 
-> > * **listing hidden files:** `ls -a` will list all files, including hidden ones
-> > * **copying a file from one directory to another:** `cp origin_dir/file1.txt origin_dir/file2.txt destination_dir/`
-> > * **wildcard:** 
-> > * **last item:**
+> > * **Show current working directory path:** `pwd` to print working directory
+> > * **Creating a directory:** `mkdir moose` to make directory called moose
+> > * **Deleting a directory:** `rm -r` to remove, where `-r` option means 'recursive' and will delete the directory *and* its child directories. Careful: this cannot be undone!!
+> > * **Creating a file using** `touch` **command:** `touch filename.txt` Note: Can add filepath before it to create it someplace other than the working directory
+> > * **Deleting a file:** `rm` to remove, e.g., `rm waterboy.txt` will delete that file. Careful: this cannot be undone!!
+> > * **Renaming a file:** `mv` command (usually to move files) also renames them. To rename a file, use `mv` with the old file as the first argument and the new file as the second argument. By moving `batman.txt` into `spiderman.txt`, we rename the file as `spiderman.txt`
+> > * **Listing hidden files:** `ls -a` will list all files, including hidden ones
+> > * **Copying a file from one directory to another:** `cp origin/file1.txt origin/file2.txt destination_dir/` will create a copy of files 1 and 2 in the destination directory. Process: to copy file(s) into a directory, use `cp` with (a list of) source file(s) as the first argument(s) and the destination directory as the last argument.
+> > * **Moving a file:** `mv` command works mostly like `cp` but actually moves the files to a new directory instead of making a copy there. Again, to move multiple files into a directory, use `mv` with a list of source files as the first arguments, and the destination directory as the last argument. See above for using `mv` to rename.
+> > * **Wildcard:** Special characters to select groups of files. `*` selects all files in the working directory. `m*.txt` selects all files in the working directory starting with "m" and ending with ".txt"
 
 ---
 
