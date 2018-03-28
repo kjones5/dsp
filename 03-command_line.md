@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * **show current working directory path:** `pwd` to print working directory
+> > * **creating a directory:** `mkdir moose` to make directory called "moose"
+> > * **deleting a directory:** XXXXX
+> > * **creating a file using `touch` command:** `touch filename.txt` Note: Can add filepath before it to create it someplace other than the working directory
+> > * **deleting a file:** 
+> > * **renaming a file:** 
+> > * **listing hidden files:** `ls -a` will list all files, including hidden ones
+> > * **copying a file from one directory to another:** `cp origin_dir/file1.txt origin_dir/file2.txt destination_dir/`
+> > * **wildcard:** 
+> > * **last item:**
 
 ---
 
@@ -35,7 +44,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | What It Does
+> > ------- | ------------
+> > `ls` | List contents
+> > `ls -a` | List all contents, including hidden files and directories
+> > `ls -l` | List all contents in a long format
+> > `ls -lh`  | XXXXX
+> > `ls -lah` | XXXXX
+> > `ls -t` | List in order by the time they were last modified
+> > `ls -Glp` | XXXXX
 
 ---
 
