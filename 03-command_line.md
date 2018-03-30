@@ -83,7 +83,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > We need `xargs` because some tools like `echo`, `rm`, `mkdir`, and `find` are not set up to accept standard input as arguments. Using `xargs` lets us pipe standard input to these commands, which will then run once for each argument (separated by a space).
+> >  
+> > *Example:* Use the `find`command to search for files/directories and then use `xargs` to operate on the results, e.g., by removing files, changing ownership, or moving files. Example modified from [this website](https://shapeshed.com/unix-xargs/).  
+> >  `find "*.txt" | xargs -p rm` will find all .txt files and remove them after prompting me (hence `-p`)
 
  
 
