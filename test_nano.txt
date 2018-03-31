@@ -1,0 +1,5 @@
+Using nano to create a test doc
+It has three lines
+This is the last one
+And now I have added a fourth
+Lucky line 5 to close for this Cinco de Mayo baby

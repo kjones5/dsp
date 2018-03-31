@@ -1,0 +1,10 @@
+I am typing my first line
+I have to input line breaks using "enter" while in insert mode
+
+Here is a fourth line, but only the third with text
+I can hit "escape" to go back to command mode
+
+Command mode lets me move around the file once I have put content in it
+And probably do some coll stuff like copying/pasting
+
+I have to be in command mode to save my file
